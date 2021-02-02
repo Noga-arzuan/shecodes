@@ -1,0 +1,108 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Lora';
+    font-style: italic;
+    font-weight: 400;
+}
+/*style header*/
+header {
+    background-color: darkgreen;
+    padding: 30px;
+    text-align: right;
+display: block;
+    font-size:40pt;
+    letter-spacing: -1px;
+    line-height: 1;
+    color: white;
+    border: black;
+
+    
+} 
+header h1{
+    
+    display: inline-block;
+
+}
+header img{
+    
+    background-size: cover;
+    background-position: center center;
+    background-image:cover;
+    transform: translate3d(0px, 35.2px, 0px);
+    
+    
+   
+}
+nav {
+    background-color:darkgreen;
+    color: white;
+    float: left;
+    width: 15%;
+    padding: 20px;
+    height:1200px;
+}
+nav ul::after{
+    padding: 20px;
+    
+}
+nav li{
+    color:white;
+    font-size: 16pt;
+}
+nav li a{
+    color:white;
+    padding: 20px;
+    letter-spacing: -1px;
+
+}
+nav li  :hover{
+    color:yellowgreen;
+    font-size: 150%;
+}
+article{
+    float:left;
+    padding: 20px;
+    background-color:white;
+    width: 85%;
+    height: 80%;/*to change after*/
+}
+section:after {
+    content:"";
+    display:table;
+    clear:both;
+
+}
+article div{
+    background-color: blanchedalmond;
+    text-align:justify;
+    padding: 10px;
+    margin: 10px;
+    color: rgba(33,33,33,1);
+    line-height: 1.25;
+
+    vertical-align: baseline;
+}
+article h1{
+    font-size: 35pt;
+}
+article p{
+    font-size: 16pt;;
+    font-weight:lighter
+}
+footer{
+    background-color: rgba(0, 0, 0, 0.623);
+    padding:10px;
+    text-align:center;
+    padding: 0;
+}
+@media (max-width:600px){
+    column.side, column.middle {
+        width:100px;
+    }
+}
+@media only screen and (min-width: 768px) and (max-width: 1279px)
+.OGiC0d {
+    font-size: 15.0pt;
+}
